@@ -1,0 +1,6 @@
+archi1 = open("datos.txt","r")
+contenido1 = archi1.read(2)
+print(contenido1)
+contenido1 = archi1.read(2)
+print(contenido1)
+archi1.close()
